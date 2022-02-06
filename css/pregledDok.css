@@ -1,0 +1,59 @@
+main>div {
+    margin-top: 10px
+}
+
+.pregled #tekstDijagnoze {
+    margin: 10px;
+}
+
+.kutijaRazdvajanje {
+    margin-bottom: 20px
+}
+
+#inputfile {
+    margin-bottom: 20px
+}
+
+#kolicina {
+    width: 50xp;
+}
+
+.pregled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tekstDijagnoze {
+    width: 500px;
+    height: 50px;
+}
+
+.kutijaRazdvajanje {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.filepond--drop-label {
+    color: #4c4e53;
+}
+
+.filepond--label-action {
+    text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+    border-radius: 2em;
+    background-color: #edf0f4;
+    height: 1em;
+}
+
+.filepond--item-panel {
+    background-color: #595e68;
+}
+
+.filepond--drip-blob {
+    background-color: #7f8a9a;
+}

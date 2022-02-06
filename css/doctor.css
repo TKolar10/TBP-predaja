@@ -1,0 +1,12 @@
+.dropdown-menu {
+    position: relative;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+}
+
+#selected {
+    margin-right: 5px;
+}

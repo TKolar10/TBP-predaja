@@ -1,0 +1,108 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #90ccf4;
+    font-family: "Garamond", serif;
+}
+
+.autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autor>a {
+    margin-right: 10px;
+}
+
+#rtable {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: radial-gradient(left, ellipse, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(right, ellipse, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
+    background-size: 10px 100%, 10px 100%;
+    background-attachment: scroll, scroll;
+    background-repeat: no-repeat;
+}
+
+#rtable td {
+    background-color: grey;
+}
+
+#rtable th {
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #f2f0e6;
+}
+
+#rtable th,
+#rtable td {
+    padding: 6px 12px;
+    border: 2px solid #d9d7ce;
+    text-align: center;
+}
+
+#centriranje {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerHeader {
+    display: flex;
+    flex-grow: 1;
+}
+
+.item {
+    flex-grow: 1;
+}
+
+.containerHeader>button {
+    width: 80px;
+    height: 20px;
+}
+
+.containerLogo {
+    display: flex;
+}
+
+.containerLogo>a {
+    width: 100px;
+    height: 100px;
+}
+
+.containerLogo>h1 {
+    width: 150px;
+}
+
+.item-center {
+    flex-grow: 7;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* Imgur Upload Style */
+
+body.loading .loading-modal {
+    display: block
+}
+
+.title {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.title h1 {
+    color: #000;
+    text-decoration: underline;
+}
+
+.title h1:hover {
+    color: #3588DE;
+}

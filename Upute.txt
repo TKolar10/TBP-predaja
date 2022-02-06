@@ -1,0 +1,3 @@
+Za pokretanje E-zdravlje potrebno je instalirati Xampp koji će služiti za lokalno hostanje te Postgres bazu podataka, u ovom radu 
+korišten je PgAdmin4. Kako se nebi ručno morale kreirate sve potrebne tablice u ovoj mapi postoji Dump.sql u SQL skripti se nalaze sve tablice
+pogledi i triggeri.
